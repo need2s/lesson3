@@ -19,7 +19,7 @@ section{
 
 .header{
     min-height: 5vh;
-    background: red;
+    background: blue;
 }
 
 .body{
@@ -30,7 +30,7 @@ section{
 
 .footer{
     min-height: 5vh;
-    background: green;
+    background: blue;
 }
 
 .header,.body,.footer{
@@ -39,7 +39,21 @@ section{
     justify-content: center;
 }
 
+.header{
+    flex-flow: column;
+}
+
 .body-child p {
     text-decoration:underline;
     background:darkorchid;
+}
+
+.user{
+    color: white;
+    font-size: 20px;
+}
+
+.header p {
+    margin: 10px 0 10px 0;
+    color: white;
 }
