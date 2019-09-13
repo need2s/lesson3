@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    min-height:100vh;
+    background:rgba(4,4,0,0.5);
+}
+
+.content{
+    text-align: center;
+}
+
+.max-width-content{
+    margin: auto;
+    max-width:1200px;
+}
+
+.header{
+    min-height: 5vh;
+    background: red;
+}
+
+.body{
+    min-height: 90vh;
+    background: yellow;
+    text-shadow: 0 0 3px black;
+}
+
+.footer{
+    min-height: 5vh;
+    background: green;
+}
+
+.header,.body,.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
